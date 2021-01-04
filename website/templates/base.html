@@ -1,0 +1,14 @@
+{% load static%}
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{% static 'main.css'%}">
+</head>
+<body>
+{%include "_navber.html"%}
+{% block main%}
+
+{% endblock %}
+{%include "_footer.html"%}
+</body>
+</html>
